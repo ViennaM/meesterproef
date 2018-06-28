@@ -79,7 +79,7 @@ Daarnaast heb ik ook kunnen oefenen met het object literal pattern.
 ### Ontwerp
 Na een lange periode van prototypen, heb ik de HiFi wireframes omgezet naar een ontwerp die we over de hele app hebben kunnen aanhouden. Dit ontwerp was voor ons niet alleen een goede houvast, maar ook de opdrachtgevers wisten wat ze konden verwachten. Aangezien het ontwerp in Adobe XD is gemaakt, kon ik makkelijk een klikbaar prototype maken. Dit prototype was nuttig om te testen bij de eindgebruikers. Hier hebben we enorm veel feedback uit gekregen die belangrijk was voor de realisatie van het product.
 <details><summary>Screenshot van artboards</summary>
-![](https://i.imgur.com/62Fl7a3.png)
+  <img src="https://i.imgur.com/62Fl7a3.png">
 </details>
 
 ### Database structuur
