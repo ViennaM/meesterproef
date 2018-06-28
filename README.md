@@ -91,8 +91,11 @@ Aangezien we dit project met MongoDB hebben gewerkt, is de database structuur ee
 ### Modals
 Naast de basisfunctionaliteit van het registreren van een een bug (eventueel met device id), was het volgens de opdrachtgever ook wenselijk om bugs toe te kunnen voegen. Ook bleek het kiezen van een balie een belangrijke functie om bugs goed te registreren en het invoeren van sales om het bugpercentage te kunnen bepalen.
 Voor deze extra functies heb ik een modal ontworpen en uitgewerkt die herbruikbaar is voor nieuwe modals. De volgende module is eruit voort gekomen:
+
 ![](https://i.imgur.com/cjM96LU.png)
+
 Een voorbeeld van een herbruikbare functie voor elke modal is de validate method:
+
 ```javascript
 validate: function () {
   document.querySelectorAll(".modal").forEach((modal, i) => {
@@ -115,6 +118,7 @@ validate: function () {
   })
 }
 ```
+
 Deze functie zorgt ervoor dat alle form inputs met data attribuut `required="true"` geteld worden en de submit button pas beschikbaar wordt als alle inputs zijn ingevuld.
 
 ## Vakken
